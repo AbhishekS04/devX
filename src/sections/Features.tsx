@@ -164,30 +164,33 @@ export default function Features() {
                     <FeatureCard
                         title=" community"
                         description=" Fostering collaboration and engagement through
-                                interactive discussions, shared resources, and
-                                real-time feedback."
+        interactive discussions, shared resources, and
+        real-time feedback."
                         className="md:col-span-2 lg:col-span-1 group"
                     >
                         <div className="aspect-video flex items-center justify-center">
-                            <p className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center">
+                            <p className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center relative">
                                 Empowering you{" "}
-                                <span className=" text-6xl bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent relative">
-                                    {/* {" "} */}
+                                <span className="text-6xl bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent relative inline-block">
                                     <span>to grow</span>
-                                    {"  "}
-                                    <video
-                                        src="/assets/gif-incredible.mp4"
-                                        autoPlay
-                                        loop
-                                        muted
-                                        playsInline
-                                        className="absolute bottom-full left-1/2 -translate-x-1/2 rounded-2xl shadow-2xl opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none"
-                                    />
-                                </span>
-                                {""} with us
+
+                                    {/* ✨ Fixed Video Overlay */}
+                                    <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-full w-40 sm:w-60 md:w-72 pointer-events-none opacity-0 group-hover:opacity-100 transition duration-500">
+                                        <video
+                                            src="/assets/gif-incredible.mp4"
+                                            autoPlay
+                                            loop
+                                            muted
+                                            playsInline
+                                            className="w-full rounded-2xl shadow-2xl"
+                                        />
+                                    </div>
+                                </span>{" "}
+                                with us
                             </p>
                         </div>
                     </FeatureCard>
+
                     <FeatureCard
                         title="Keyboard Shortcut"
                         description="Keyboard quick action to delete your problem"
