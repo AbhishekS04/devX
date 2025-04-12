@@ -47,7 +47,7 @@ export default function ContentSection() {
       <div className="mx-auto max-w-7xl space-y-8 px-6 md:space-y-12">
         <div className="mx-auto max-w-3xl space-y-6 text-center md:space-y-12">
           <h2 className="text-balance text-4xl font-medium lg:text-5xl">
-            Celebrating the<span className='text-lime-400'> achievements</span> of our community members.
+            Celebrating the<span className='text-lime-400'>achievements</span> of our community members.
           </h2>
           <p>
             Our community is thriving with incredible accomplishments from groundbreaking projects to innovative solutions, showcasing the talent and dedication of our members.
