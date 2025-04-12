@@ -5,16 +5,30 @@ import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
 import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button";
-
 const navLinks = [
-    { label: "Home", href: "/" },
-    { label: "Features", href: "/features" },
-    { label: "Integrations", href: "#integrations" },
+    { label: "Introduction", href: "#introduction" },
+    { label: "Features", href: "#features" },
+    { label: "Moments", href: "#moments" },
     { label: "FAQs", href: "#faqs" },
 ];
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+
+    const handleSmoothScroll = (
+        e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+        href: string
+    ) => {
+        e.preventDefault();
+        const targetId = href.replace("#", "");
+        const target = document.getElementById(targetId);
+        if (target) {
+            setTimeout(() => {
+                target.scrollIntoView({ behavior: "smooth" });
+            }, 150); // Slight delay for smooth feel
+        }
+    };
+
     return (
         <>
             <section className="py-4 lg:py-8 fixed w-full top-0 z-50">
@@ -23,8 +37,16 @@ export default function Navbar() {
                         <div className="flex items-center justify-between p-2 md:px-4">
                             {/* Left: Logo */}
                             <div className="flex items-center gap-2">
-                                <button
-                                    onClick={() => (window.location.href = "/")}
+                                <a
+                                    href="#home"
+                                    onClick={(e) => {
+                                        e.preventDefault();
+                                        window.scrollTo({
+                                            top: 0,
+                                            behavior: "smooth",
+                                        });
+                                        setIsOpen(false); // close mobile menu if open
+                                    }}
                                     className="flex items-center"
                                 >
                                     <Image
@@ -32,7 +54,7 @@ export default function Navbar() {
                                         alt="Layers logo"
                                         className="h-9 w-auto"
                                     />
-                                </button>
+                                </a>
                             </div>
 
                             {/* Center: Nav Links */}
@@ -41,7 +63,10 @@ export default function Navbar() {
                                     <a
                                         href={link.href}
                                         key={link.label}
-                                        className="hover:text-lime-400 transition-colors duration-300"
+                                        onClick={(e) =>
+                                            handleSmoothScroll(e, link.href)
+                                        }
+                                        className="hover:text-lime-400 transition-colors duration-300 cursor-pointer"
                                     >
                                         {link.label}
                                     </a>
@@ -124,7 +149,14 @@ export default function Navbar() {
                                             <a
                                                 href={link.href}
                                                 key={link.label}
-                                                className="hover:text-lime-400 transition-colors duration-300"
+                                                onClick={(e) => {
+                                                    handleSmoothScroll(
+                                                        e,
+                                                        link.href
+                                                    );
+                                                    setIsOpen(false); // Close menu after click
+                                                }}
+                                                className="hover:text-lime-400 transition-colors duration-300 cursor-pointer"
                                             >
                                                 {link.label}
                                             </a>

@@ -6,7 +6,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function Hero() {
     return (
-        <section className="py-24 overflow-x-clip relative">
+        <section id="home" className="py-24 overflow-x-clip relative">
             <BackgroundBeams className="absolute inset-0 -z-20" />
 
             {/* <BackgroundBeams className="absolute inset-0 -z-20 w-full h-full pointer-events-none" /> */}

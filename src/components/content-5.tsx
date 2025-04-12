@@ -39,7 +39,7 @@ export default function ContentSection() {
   }, []);
 
   return (
-    <section className="py-24 md:py-32">
+    <section id="moments" className="py-24 md:py-32">
       <div className="flex justify-center mb-6">
         <Tag>Moments</Tag>
       </div>
