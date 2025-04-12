@@ -6,9 +6,9 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "https://img.freepik.com/free-photo/misurina-sunset_181624-34793.jpg?semt=ais_hybrid&w=740",
-  "https://img.freepik.com/free-photo/beautiful-scenery-mountain-lake_181624-34794.jpg?semt=ais_hybrid&w=740",
-  "https://img.freepik.com/free-photo/majestic-view-mountain-landscape_181624-34795.jpg?semt=ais_hybrid&w=740"
+  "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a11.jpg?raw=true",
+  "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a2.jpeg?raw=true",
+  "https://media.licdn.com/dms/image/v2/D5622AQF9l3YkVICrhw/feedshare-shrink_2048_1536/B56ZVd0c._HoAs-/0/1741035790815?e=1747267200&v=beta&t=VJYSfz7NsPfuugS7O3i_Bf6ZwkPPuQ2IgByqgELozIQ",
 ];
 
 export default function ContentSection() {
@@ -61,7 +61,7 @@ export default function ContentSection() {
               key={currentIndex} // use image URL as unique key
               src={images[currentIndex]}
               alt={`Slide ${currentIndex + 1}`}
-              className="absolute inset-0 w-full h-full object-cover grayscale"
+              className="absolute inset-0 w-full h-full object-cover"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
