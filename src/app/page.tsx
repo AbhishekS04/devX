@@ -29,7 +29,7 @@ export default function Home() {
             <Content/>
             <CallToAction />
             <Footer/>
-            <TextHoverEffect text={"DevX"}/>
+            <TextHoverEffect text={"Authority"}/>
 
         </>
     );

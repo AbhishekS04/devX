@@ -76,7 +76,7 @@ export const TextHoverEffect = ({
           textAnchor="middle"
           dominantBaseline="middle"
           strokeWidth="0.3"
-          className="fill-transparent stroke-neutral-400 dark:stroke-neutral-700 font-[helvetica] text-7xl font-bold"
+          className="fill-transparent stroke-neutral-400 dark:stroke-neutral-700 font-[helvetica] text-5xl font-bold"
           style={{ opacity: 0.1 }}
         >
           {text}
@@ -92,7 +92,7 @@ export const TextHoverEffect = ({
             stroke="url(#textGradient)"
             strokeWidth="0.3"
             mask="url(#textMask)"
-            className="fill-transparent font-[helvetica] text-7xl font-bold"
+            className="fill-transparent font-[helvetica] text-5xl font-bold"
             filter="url(#glow)"
           >
             {text}

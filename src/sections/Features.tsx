@@ -121,7 +121,7 @@ export default function Features() {
 
                             {/* Avatar 4 */}
                             <a
-                                href="https://x.com/ashwin_santiago"
+                                href="https://"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="relative group/avatar4 -ml-6"
@@ -156,7 +156,7 @@ export default function Features() {
         group-hover/avatar4:opacity-100 group-hover/avatar4:translate-y-0 
         transition duration-300 delay-400 whitespace-nowrap shadow-md"
                                 >
-                                    💭 Ashwin Santiago
+                                    💭 Not Selected
                                 </span>
                             </a>
                         </div>
@@ -169,7 +169,7 @@ export default function Features() {
                         className="md:col-span-2 lg:col-span-1 group"
                     >
                         <div className="aspect-video flex items-center justify-center">
-                            <p className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center relative">
+                            <div className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center relative">
                                 Empowering you{" "}
                                 <span className="text-6xl bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent relative inline-block">
                                     <span>to grow</span>
@@ -187,7 +187,7 @@ export default function Features() {
                                     </div>
                                 </span>{" "}
                                 with us
-                            </p>
+                            </div>
                         </div>
                     </FeatureCard>
 

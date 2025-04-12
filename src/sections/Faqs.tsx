@@ -7,24 +7,32 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const faqs = [
     {
-        question: "What is DevCommunity?",
-        answer: "DevCommunity is a platform where developers can connect, share knowledge, and collaborate on projects to grow together.",
+        question: "What is Authority?",
+        answer: "Authority is a platform where developers can connect, share knowledge, and collaborate on projects to grow together.",
     },
     {
-        question: "Is DevCommunity free to use?",
-        answer: "Yes, DevCommunity is completely free to use. Our goal is to make learning and collaboration accessible to everyone.",
+        question: "Is Authority free to use?",
+        answer: "Yes, Authority is completely free to use. Our mission is to make learning and collaboration accessible to everyone.",
     },
     {
-        question: "How can I contribute to DevCommunity?",
-        answer: "You can contribute by sharing your knowledge through posts, answering questions, participating in discussions, and collaborating on community projects.",
+        question: "How can I contribute to Authority?",
+        answer: "You can contribute by sharing your knowledge through posts, answering questions, joining discussions, and collaborating on community-driven projects.",
     },
     {
-        question: "Can I create my own groups or communities?",
-        answer: "Absolutely! DevCommunity allows you to create and manage your own groups to connect with like-minded developers.",
+        question: "How does Authority ensure a positive environment?",
+        answer: "We have clear community guidelines and active moderation to make sure Authority stays respectful, inclusive, and supportive for everyone.",
     },
     {
-        question: "How does DevCommunity ensure a positive environment?",
-        answer: "We have community guidelines and moderation in place to ensure that DevCommunity remains a respectful and inclusive space for everyone.",
+        question: "Can I access Authority on mobile devices?",
+        answer: "Yes, Authority is designed to be fully responsive and works great on mobile devices. You can connect with the community from anywhere.",
+    },
+    {
+        question: "How do I report inappropriate content?",
+        answer: "If you see any inappropriate content, you can report it using the reporting feature available on each post or comment. Additionally, if possible, share a screenshot and post it in the report group within the community for quicker resolution.",
+    },
+    {
+        question: "How can I stay updated with the latest news and features?",
+        answer: "You can follow our blog and subscribe to our newsletter to get the latest updates, news, and features directly in your inbox.",
     },
 ];
 
@@ -77,18 +85,20 @@ export default function Faqs() {
                             </div>
 
                             <AnimatePresence initial={false}>
-                                {selectedIndex === faqIndex && (
-                                    <motion.div
-                                        key="answer"
-                                        initial={{ height: 0 , marginTop: 0}}
-                                        animate={{  height: "auto", marginTop: 24 }}
-                                        exit={{    height: 0, marginTop: 0 }}
-                                        className={twMerge(" overflow-hidden")}
-                                    >
-                                        <p className="text-white/50">{faq.answer}</p>
-                                    </motion.div>
-                                )}
-                            </AnimatePresence>
+    {selectedIndex === faqIndex && (
+        <motion.div
+            key="answer"
+            initial={{ height: 0, marginTop: 0 }}
+            animate={{ height: "auto", marginTop: 24 }}
+            exit={{ height: 0, marginTop: 0 }}
+            className={twMerge("overflow-hidden")}
+        >
+            {/* Ensure <p> is not wrapping any block-level elements */}
+            <div className="text-white/50">{faq.answer}
+            </div>
+        </motion.div>
+    )}
+</AnimatePresence>
                         </div>
                     ))}
                 </div>
