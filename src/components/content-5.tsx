@@ -89,10 +89,10 @@ export default function ContentSection() {
         {/* Features Section */}
         <div className="relative mx-auto grid grid-cols-2 gap-x-3 gap-y-6 sm:gap-8 lg:grid-cols-4">
             {[
-            { icon: <Zap className="size- t text-lime-400" />, title: "Innovative Projects", desc: "Showcasing groundbreaking projects developed by our talented community members." },
-            { icon: <Trophy className="size- t text-lime-400" />, title: "Award-Winning Solutions", desc: "Celebrating solutions that have earned recognition and accolades in the tech world." },
-            { icon: <Smile className="size- t text-lime-400" />, title: "Community Impact", desc: "Highlighting contributions that have made a positive impact on the developer community." },
-            { icon: <Cpu className="size- t text-lime-400" />, title: "AI Innovations", desc: "Featuring cutting-edge AI advancements driven by our community's creativity." }
+            { icon: <Zap className="text-lime-400" />, title: "Innovative Projects", desc: "Showcasing groundbreaking projects developed by our talented community members." },
+            { icon: <Trophy className="text-lime-400" />, title: "Award-Winning Solutions", desc: "Celebrating solutions that have earned recognition and accolades in the tech world." },
+            { icon: <Smile className="text-lime-400" />, title: "Community Impact", desc: "Highlighting contributions that have made a positive impact on the developer community." },
+            { icon: <Cpu className="text-lime-400" />, title: "AI Innovations", desc: "Featuring cutting-edge AI advancements driven by our community's creativity." }
             ].map((item, idx) => (
             <div key={idx} className="space-y-2">
               <div className="flex items-center gap-2">
