@@ -91,3 +91,19 @@
    
   }
   
+  @layer utilities {
+    @keyframes glowPulse {
+      0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.8);
+      }
+      100% {
+        opacity: 0.2;
+        transform: translateX(-50%) scale(1);
+      }
+    }
+  
+    .animate-glowPulse {
+      animation: glowPulse 1.5s ease-out forwards;
+    }
+  }

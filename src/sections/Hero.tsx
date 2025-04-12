@@ -14,7 +14,9 @@ export default function Hero() {
 
             {/* 🌟 Softer & dimmer glowing ball above the heading */}
 
-            <div className="absolute top-[15%] left-1/2 -translate-x-1/2 -z-10 w-[500px] h-[500px] rounded-full bg-lime-400 blur-[250px] opacity-15 pointer-events-none" />
+            <div
+    className="absolute top-[15%] left-1/2 -translate-x-1/2 -z-10 w-[500px] h-[500px] rounded-full bg-lime-400 blur-[500px] opacity-0 animate-glowPulse pointer-events-none"
+/>
 
             <div className="container relative">
                 <div className="flex justify-center">
