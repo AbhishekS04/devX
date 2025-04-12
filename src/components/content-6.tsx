@@ -24,7 +24,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/abhishek-singh-045312292/"
                         target="_blank"
                         title="Abhishek Singh"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Abhishek Singh"
@@ -38,7 +38,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/shovon-halder-5ab775266/"
                         target="_blank"
                         title="Shovon Halder"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Shovon Halder"
@@ -52,7 +52,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/snehasish-mondal-162016281/"
                         target="_blank"
                         title="Snehasish Mondal"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Snehasish Mondal"
@@ -66,7 +66,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/tushar-kanti-dey-86185b28b/"
                         target="_blank"
                         title="Tushar kanti dey"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Tushar kanti dey"
@@ -80,7 +80,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/baibhab-adhikari-3380bb297/"
                         target="_blank"
                         title="Baibhab Adhikari"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Baibhab Adhikari"
@@ -94,7 +94,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/sayan-mukherjee-853a2b292/"
                         target="_blank"
                         title="Sayan Mukharjee"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Sayan Mukharjee"
@@ -108,7 +108,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/samriddhi-sinha-555768280/"
                         target="_blank"
                         title="Samriddhi Sinha"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Samriddhi Sinha"
@@ -122,7 +122,7 @@ export default function CommunitySection() {
                         href="https://www.linkedin.com/in/sankalpacodes/"
                         target="_blank"
                         title="Sankalpa Sarkar"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Sankalpa Sarkar"
@@ -136,39 +136,39 @@ export default function CommunitySection() {
                         href=""
                         target="_blank"
                         title="Sahnik Biswas"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
                             alt="Sahnik Biswas"
-                            src="https://media.licdn.com/dms/image/v2/D5635AQELKkhTMLOMIQ/profile-framedphoto-shrink_400_400/B56ZWvsantHoAk-/0/1742409411737?e=1745078400&v=beta&t=GXEDWxcR3EKmtxeTdXwZj3-oqyHobK38c6RreppxniM"
+                            src="https://github.com/AbhishekS04/devX/blob/main/src/assets/images/sahnik1.jpg?raw=true"
                             loading="lazy"
                             width={120}
                             height={120}
                         />
                     </Link>
                     <Link
-                        href=""
+                        href="https://www.linkedin.com/in/shreyas-saha/"
                         target="_blank"
-                        title="Méschac Irung"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        title="Shreyas Saha"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
-                            alt="John Doe"
-                            src="https://randomuser.me/api/portraits/men/9.jpg"
+                            alt="Shreyas Saha"
+                            src="https://media.licdn.com/dms/image/v2/D5603AQHC9gsta41d0Q/profile-displayphoto-shrink_400_400/B56ZSnVIbHGoAg-/0/1737974127355?e=1749686400&v=beta&t=rVKzyqLfB_f3PB8Yvw8Tujt6eaopFF71XSemm2AoRGc"
                             loading="lazy"
                             width={120}
                             height={120}
                         />
                     </Link>
                     <Link
-                        href=""
+                        href="https://www.linkedin.com/in/arpita-das-6642a2290/"
                         target="_blank"
-                        title="Méschac Irung"
-                        className="size-16 rounded-full border *:size-full *:rounded-full *:object-cover"
+                        title="Arpita Das"
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
-                            alt="John Doe"
-                            src="https://randomuser.me/api/portraits/men/10.jpg"
+                            alt=" Arpita Das"
+                            src="https://media.licdn.com/dms/image/v2/D5603AQEbWLj_m2rTqg/profile-displayphoto-shrink_400_400/B56ZTlRSqSGQAk-/0/1739013304502?e=1749686400&v=beta&t=JwxNkVwN1FXzhLIgeRLZNTY3u3E1cK4ho_WIEKySu2E"
                             loading="lazy"
                             width={120}
                             height={120}

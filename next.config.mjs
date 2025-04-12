@@ -18,6 +18,8 @@ const nextConfig = {
       "api.microlink.io",
       "randomuser.me",
       'media.licdn.com',
+      'github.com',
+      'avatars.githubusercontent.com',
       // ✅ Added domain for Next.js Image component
     ],
   },
