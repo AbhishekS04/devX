@@ -9,7 +9,7 @@ export default function CommunitySection() {
         <section className="py-16 md:py-32">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <Tag className="mb-7">MEMBERS</Tag>
+                    <Tag className="mb-7">CORE MEMBERS</Tag>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold">
                         Built by the <span className="text-lime-400">Community</span> <br /> for the Community
                     </h2>
@@ -20,14 +20,28 @@ export default function CommunitySection() {
                     </p>
                 </div>
                 <div className="mx-auto mt-12 flex max-w-lg flex-wrap justify-center gap-3">
-                    <Link
-                        href="https://www.linkedin.com/in/abhishek-singh-045312292/"
+                <Link
+                        href="https://www.linkedin.com/in/tushar-kanti-dey-86185b28b/"
                         target="_blank"
-                        title="Abhishek Singh"
+                        title="Tushar kanti dey"
                         className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
-                            alt="Abhishek Singh"
+                            alt="Tushar kanti dey"
+                            src="https://media.licdn.com/dms/image/v2/D5603AQGZxkjZz8oPMQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1708317508863?e=1749686400&v=beta&t=Ewi0vn6bC0M03LcaIII4pNsb6rm_gkjzO3QuZ4qHerA"
+                            loading="lazy"
+                            width={120}
+                            height={120}
+                        />
+                    </Link>
+                    <Link
+                        href="https://www.linkedin.com/in/"
+                        target="_blank"
+                        title=""
+                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
+                    >
+                        <Image
+                            alt=""
                             src="https://media.licdn.com/dms/image/v2/D5603AQEWdSkp3txl1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1708152575935?e=1749686400&v=beta&t=6bMwGHsN1PL4cFi2C2hjBzNrVlvYq2jsF8jSRW0A6Lg"
                             loading="lazy"
                             width={120}
@@ -35,14 +49,14 @@ export default function CommunitySection() {
                         />
                     </Link>
                     <Link
-                        href="https://www.linkedin.com/in/shovon-halder-5ab775266/"
+                        href="https://www.linkedin.com/in/garima-roy-032277290/"
                         target="_blank"
-                        title="Shovon Halder"
+                        title="Garima Roy"
                         className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
-                            alt="Shovon Halder"
-                            src="https://media.licdn.com/dms/image/v2/D4E03AQHES_Xhjz00KQ/profile-displayphoto-shrink_400_400/B4EZWVOCorH0Ak-/0/1741965243813?e=1749686400&v=beta&t=XMg4uny-isCEXT-98uRjF5-UpcocKwbRql2pgwr0XXs"
+                            alt="Garima Roy"
+                            src="https://media.licdn.com/dms/image/v2/D5603AQF4xY_2qWS8MQ/profile-displayphoto-shrink_400_400/B56ZWWIp4BGUAk-/0/1741980606718?e=1749686400&v=beta&t=pnoSTy69kYVQrS8N5IrIMsO0vgnUoU4gPpgUtXOa01E"
                             loading="lazy"
                             width={120}
                             height={120}
@@ -62,20 +76,7 @@ export default function CommunitySection() {
                             height={120}
                         />
                     </Link>
-                    <Link
-                        href="https://www.linkedin.com/in/tushar-kanti-dey-86185b28b/"
-                        target="_blank"
-                        title="Tushar kanti dey"
-                        className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
-                    >
-                        <Image
-                            alt="Tushar kanti dey"
-                            src="https://media.licdn.com/dms/image/v2/D5603AQGZxkjZz8oPMQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1708317508863?e=1749686400&v=beta&t=Ewi0vn6bC0M03LcaIII4pNsb6rm_gkjzO3QuZ4qHerA"
-                            loading="lazy"
-                            width={120}
-                            height={120}
-                        />
-                    </Link>
+                    
                     <Link
                         href="https://www.linkedin.com/in/baibhab-adhikari-3380bb297/"
                         target="_blank"
