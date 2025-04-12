@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logoImage from "@/assets/images/logo.svg";
+import logoImage from "@/assets/images/logoX.svg";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
