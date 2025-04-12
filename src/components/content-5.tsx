@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {   Zap, Trophy,Smile, Cpu } from 'lucide-react';
 import Tag from "@/components/Tag";
@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const images = [
   "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a11.jpg?raw=true",
   "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a2.jpeg?raw=true",
-  "https://media.licdn.com/dms/image/v2/D5622AQF9l3YkVICrhw/feedshare-shrink_2048_1536/B56ZVd0c._HoAs-/0/1741035790815?e=1747267200&v=beta&t=VJYSfz7NsPfuugS7O3i_Bf6ZwkPPuQ2IgByqgELozIQ",
+  "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a3.jpg?raw=true",
 ];
 
 export default function ContentSection() {
