@@ -35,9 +35,7 @@ export default function Features() {
                 <div className="mt-12 grid grid-cols-1 lg:grid-cols-3  md:grid-cols-4 gap-8">
                     <FeatureCard
                         title="Community Admins"
-                        description="Empowering developers to connect, share
-                                knowledge, and build together with intuitive
-                                tools and seamless workflows."
+                        description="Meet the dedicated admins who ensure seamless collaboration, foster innovation, and build a thriving developer community."
                         className="md:col-span-2 lg:col-span-1 group"
                     >
                         <div className="aspect-video flex items-center gap-2">

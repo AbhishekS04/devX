@@ -3,6 +3,7 @@ import { LinkPreview } from "@/components/link-preview";
 import { AnimationPlaybackControls, motion, useAnimate } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
+
 export default function CallToAction() {
     const [isHovered, setIsHovered] = useState(false);
     const animation = useRef<AnimationPlaybackControls>();

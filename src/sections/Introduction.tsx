@@ -28,7 +28,7 @@ export default function Introduction() {
             <div className="container">
                 <div className="sticky top-20 md:top-28 lg:top-40">
                     <div className="flex justify-center">
-                        <Tag>Introducing DevX</Tag>
+                        <Tag>Introducing Authority</Tag>
                     </div>
                     <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
                         <span>Your creativity deserves a better community</span>{" "}
@@ -47,7 +47,7 @@ export default function Introduction() {
                         </span>
                         <span className="text-lime-400 block">
                             {" "}
-                            That&apos;s why we created DevX
+                            That&apos;s why we created Authority
                         </span>
                     </div>
                 </div>

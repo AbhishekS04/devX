@@ -1,6 +1,6 @@
 'use client';
 
-import {  Sparkles, Zap, Trophy,Smile } from 'lucide-react';
+import {   Zap, Trophy,Smile, Cpu } from 'lucide-react';
 import Tag from "@/components/Tag";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -58,7 +58,7 @@ export default function ContentSection() {
         <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden max-w-full md:max-w-5xl lg:max-w-4xl mx-auto">
           <AnimatePresence initial={false} mode="wait">
             <motion.img
-              key={images[currentIndex]} // use image URL as unique key
+              key={currentIndex} // use image URL as unique key
               src={images[currentIndex]}
               alt={`Slide ${currentIndex + 1}`}
               className="absolute inset-0 w-full h-full object-cover grayscale"
@@ -88,20 +88,20 @@ export default function ContentSection() {
 
         {/* Features Section */}
         <div className="relative mx-auto grid grid-cols-2 gap-x-3 gap-y-6 sm:gap-8 lg:grid-cols-4">
-          {[
-            { icon: <Zap className="size- t text-lime-400" />, title: "Collaborative", desc: "It supports an entire helping developers and innovate." },
-            { icon: <Trophy className="size- t text-lime-400" />, title: "Helpful", desc: "It supports an entire helping developers and businesses." },
-            { icon: <Smile className="size- t text-lime-400" />, title: "Happiness", desc: "It supports an helping developers businesses innovate." },
-            { icon: <Sparkles className="size- t text-lime-400" />, title: "AI Powered", desc: "It supports an helping developers businesses innovate." }
-          ].map((item, idx) => (
+            {[
+            { icon: <Zap className="size- t text-lime-400" />, title: "Innovative Projects", desc: "Showcasing groundbreaking projects developed by our talented community members." },
+            { icon: <Trophy className="size- t text-lime-400" />, title: "Award-Winning Solutions", desc: "Celebrating solutions that have earned recognition and accolades in the tech world." },
+            { icon: <Smile className="size- t text-lime-400" />, title: "Community Impact", desc: "Highlighting contributions that have made a positive impact on the developer community." },
+            { icon: <Cpu className="size- t text-lime-400" />, title: "AI Innovations", desc: "Featuring cutting-edge AI advancements driven by our community's creativity." }
+            ].map((item, idx) => (
             <div key={idx} className="space-y-2">
               <div className="flex items-center gap-2">
-                {item.icon}
-                <h3 className="text-sm font-medium">{item.title}</h3>
+              {item.icon}
+              <h3 className="text-sm font-medium">{item.title}</h3>
               </div>
               <p className="text-muted-foreground text-sm">{item.desc}</p>
             </div>
-          ))}
+            ))}
         </div>
       </div>
     </section>

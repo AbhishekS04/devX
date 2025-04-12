@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "DevCommunity",
+    title: "Authority",
     description: "A community for developers",
 };
 

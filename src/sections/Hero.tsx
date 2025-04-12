@@ -43,7 +43,7 @@ export default function Hero() {
                         <InteractiveHoverButton
                             type="submit"
                             className="inline-flex items-center bg-transparent hover:bg-neutral-900/50 backdrop-blur-sm rounded-full border border-transparent text-lime-300 hover:text-black transition-colors"
-                            aria-label="Sign up for DevCommunity"
+                            aria-label="Sign up for Authority"
                         >
                             SUBSCRIBE
                             <span className="transition-transform duration-300 ease-out group-hover:translate-x-1"></span>
