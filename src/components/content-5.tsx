@@ -8,19 +8,19 @@ import Image from "next/image";
 
 const images = [
     {
-        src: "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a5.jpeg?raw=true",
+        src: "/achievements/a5.jpeg",
         link: "https://www.linkedin.com/posts/arpita-das-6642a2290_smartindiahackathon2024-agridrive-innovation-activity-7274709928026513408-T4tr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbhorUBdyCtxLneygLEHLvUHrNb60Hjxd4",
     },
     {
-        src: "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a2.jpeg?raw=true",
+        src: "/achievements/a2.jpeg",
         link: "https://www.linkedin.com/posts/samriddhi-sinha-555768280_medtech-medtechhackathon-hackthefuture-activity-7316369435496222721-GLW-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbhorUBdyCtxLneygLEHLvUHrNb60Hjxd4",
     },
     {
-        src: "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a3.jpg?raw=true",
+        src: "/achievements/a3.jpg",
         link: "https://www.linkedin.com/posts/shovon-halder-5ab775266_hello-guys-i-know-this-isnt-recent-activity-7302433390618677250-sxzZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbhorUBdyCtxLneygLEHLvUHrNb60Hjxd4",
     },
     {
-        src: "https://github.com/AbhishekS04/devX/blob/main/src/assets/images/achievements/a4.jpeg?raw=true",
+        src: "/achievements/a4.jpeg",
         link: "https://www.linkedin.com/posts/baibhab-adhikari-3380bb297_aipowered-resumescreening-techinnovation-activity-7306205913701367808-pIU8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEbhorUBdyCtxLneygLEHLvUHrNb60Hjxd4",
     },
 ];
@@ -107,6 +107,8 @@ export default function ContentSection() {
                                 src={images[currentIndex].src}
                                 alt={`Slide ${currentIndex + 1}`}
                                 className="absolute inset-0 w-full h-full object-cover"
+                                width={1920} // Replace with the actual width of your image
+                                height={1080} // Replace with the actual height of your image
                             />
 
                             <AnimatePresence>
@@ -136,15 +138,18 @@ export default function ContentSection() {
                     {/* Navigation Buttons */}
                     <button
                         onClick={handlePrev}
-                        className="absolute top-1/2 left-4 transform -translate-y-1/2  bg-neutral/20 hover:bg-white/40 text-black backdrop-blur-md p-2 rounded-full transition-all duration-300 shadow-lg w-10 h-10 flex items-center justify-center text-lg font-bold"
+                        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-neutral/20 hover:bg-white/40 text-black backdrop-blur-md p-2 rounded-full transition-all duration-300 shadow-lg w-10 h-10 flex items-center justify-center hover:-translate-x-1"
                         aria-label="Previous"
+                        style={{ fontSize: "1.5rem", fontWeight: "bold" }} // Adjusted size and weight
                     >
                         &#8592;
                     </button>
+
                     <button
                         onClick={handleNext}
-                        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-neutral/20 hover:bg-white/40 text-black backdrop-blur-md p-2 rounded-full transition-all duration-300 shadow-lg w-10 h-10 flex items-center justify-center text-lg font-bold"
+                        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-neutral/20 hover:bg-white/40 text-black backdrop-blur-md p-2 rounded-full transition-all duration-300 shadow-lg w-10 h-10 flex items-center justify-center hover:translate-x-1"
                         aria-label="Next"
+                        style={{ fontSize: "1.5rem", fontWeight: "bold" }} // Adjusted size and weight
                     >
                         &#8594;
                     </button>

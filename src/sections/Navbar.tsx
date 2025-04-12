@@ -51,8 +51,8 @@ export default function Navbar() {
                                 >
                                     <Image
                                         src={logoImage}
-                                        alt="Layers logo"
-                                        className="h-9 w-auto"
+                                        alt="Authority logo"
+                                        className="h-5 w-auto" // Reduced height for smaller logo
                                     />
                                 </a>
                             </div>
