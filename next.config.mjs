@@ -16,7 +16,9 @@ const nextConfig = {
       "res.cloudinary.com",
       "img.freepik.com",
       "api.microlink.io",
-      "randomuser.me", // ✅ Added domain for Next.js Image component
+      "randomuser.me",
+      'media.licdn.com',
+      // ✅ Added domain for Next.js Image component
     ],
   },
 };
