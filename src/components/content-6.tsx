@@ -35,14 +35,14 @@ export default function CommunitySection() {
                         />
                     </Link>
                     <Link
-                        href="https://www.linkedin.com/in/"
+                        href="https://www.linkedin.com/in/aishi-mahapatra-1058562b0/"
                         target="_blank"
-                        title=""
+                        title="Aishi Mahapatra"
                         className="size-16 rounded-full outline outline-2 outline-lime-400 *:size-full *:rounded-full *:object-cover"
                     >
                         <Image
-                            alt=""
-                            src="https://media.licdn.com/dms/image/v2/D5603AQEWdSkp3txl1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1708152575935?e=1749686400&v=beta&t=6bMwGHsN1PL4cFi2C2hjBzNrVlvYq2jsF8jSRW0A6Lg"
+                            alt="Aishi Mahapatra"
+                            src="https://media.licdn.com/dms/image/v2/D4E03AQGSd95gw9hrpA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1710187605970?e=1750291200&v=beta&t=rhKQe5_HqNm6KSvnG7g4eqED4JPtdWyCRWDCV3gXbbA"
                             loading="lazy"
                             width={120}
                             height={120}
